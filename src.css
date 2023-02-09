@@ -10,6 +10,7 @@
     --background-secondary: rgb(24, 24, 24);
     --background-secondary-alt: rgb(8, 8, 8);
     --background-tertiary: rgb(8, 8, 8);
+    --background-floating: rgb(8, 8, 8);
     --background-accent: rgb(236, 67, 90);
     --header-primary: rgb(223, 195, 200);
     --interactive-active: rgb(223, 195, 200);
@@ -201,15 +202,7 @@ aside {
     backdrop-filter: blur(1em);
 }
 
-.root-2uUafN {
-    background: none;
-}
-.theme-light [class*=overlayBackground-], .theme-light [class*=badgeList-] {
-    background: rgba(255, 255, 255, 0.7);
-}
-.theme-dark [class*=overlayBackground-], .theme-dark [class*=badgeList-] {
-    background: rgba(10, 10, 10, 0.9);
-}
+
 
 
 .theme-light [class^=popout-], .theme-light [class^=popoutContainer-] {
@@ -287,7 +280,6 @@ aside {
     backdrop-filter: blur(0.5em);
     box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.2) !important;
 }
-
 
 .theme-dark .root-g14mjS {
     background: rgba(10, 10, 10, 0.6);
