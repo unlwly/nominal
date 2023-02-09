@@ -46,9 +46,10 @@ aside {
 }
 
 .info-3pQQBb > span:last-child::after {
-    content: "\aNominal \bb  CSS Tweaks";
+    content: "\aNominal <=> CSS Tweaks";
     white-space: pre;
     text-transform: none;
+    font-family: "Iosevka Web";
 }
 
 [class*="welcomeCTA"] { display:none; }
@@ -201,9 +202,6 @@ aside {
     border-radius: 0.5em;
     backdrop-filter: blur(1em);
 }
-
-
-
 
 .theme-light [class^=popout-], .theme-light [class^=popoutContainer-] {
     background: rgba(255, 255, 255, 0.7);
