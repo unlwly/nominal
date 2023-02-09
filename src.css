@@ -1,0 +1,298 @@
+@import "https://pvinis.github.io/iosevka-webfont/7.0.2/iosevka.css";
+
+:root {
+    --font-headline: 'Iosevka Web';
+    --font-code: 'Iosevka Web';
+
+    --col-accent: rgb(223, 195, 200);
+    --col-primary: rgb(36, 36, 37);
+    --col-secondary: rgb(24, 24, 24);
+    --col-secondary-alt: rgb(8, 8, 8);
+    --col-tertiary: rgb(8, 8, 8);
+    --col-input-box: rgb(8, 8, 8);
+    --col-bgacc: rgb(236, 67, 103);
+    --col-scrollbar-track: var(--col-primary);
+    --col-scrollbar-thumb: var(--col-accent);
+}
+
+.theme-dark {
+    --background-primary: var(--col-primary);
+    --background-secondary: var(--col-secondary);
+    --background-secondary-alt: var(--col-secondary-alt);
+    --background-tertiary: var(--col-tertiary);
+    --background-accent: var(--col-bgacc);
+    --header-primary: var(--col-accent);
+    --interactive-active: var(--col-accent);
+    --local-bot-side: var(--col-bgacc);
+    --channeltextarea-background: var(--col-input-box);
+    --scrollbar-auto-thumb: var(--col-scrollbar-thumb);
+    --scrollbar-auto-track: var(--col-scrollbar-track);
+    --brand-experiment: var(--col-accent);
+    --brand-experiment-560: var(--col-accent);
+}
+
+.theme-dark .container-1um7CU,.theme-dark .container-2IKOsH, .theme-dark .header-3xB4vB {
+    background-color: var(--background-secondary-alt);
+}
+
+[href="/store"],
+[aria-label="Send a gift"],
+.container-2giAcK,
+.buttonContainer-1sjtPU,
+[aria-label="Nitro"],
+[class^="upsellVisible-"], 
+[class^="premiumIconWrapper"], 
+[class^="characterCount-"] [class*="upsell-"], 
+[class^="emojiSection-"] [class*="shinyButton-"],
+[class*="tryItOutSection-"],
+[aria-label="Help"],
+[aria-label="Show User Profile (Unavailable)"],
+[aria-label="Hide User Profile"],
+[aria-label="Show User Profile"],
+aside {
+    display: none
+}
+
+.info-3pQQBb > span:last-child::after {
+    content: "\aNominal \bb  CSS";
+    white-space: pre;
+    text-transform: none;
+}
+
+[class*="welcomeCTA"] { display:none; }
+[class*="clickableSticker"] > div[aria-label] > [class*="assetWrapper"] {
+    display: none;
+}
+[class*="clickableSticker"] > div[aria-label]::after {
+    content: "A sticker was hidden.";
+    color: gray;
+    font-weight: 500;
+}
+
+.form-3gdLxP {
+    padding: 0px;
+}
+.channelTextArea-1VQBuV,.wrapper-2SplAX {
+    margin-bottom: 0px;
+}
+.inner-NQg18Y {
+    padding-top: 4px;
+    min-height: 49px;
+}
+.base-3bcbY3 {
+    top: -24px;
+    left: 0px;
+    width: fit-content;
+    padding-right: 9px;
+    border-radius: 0 8px 0 0;
+    background-color: var(--channeltextarea-background);
+    opacity: 0.9;
+}
+
+.scrollableContainer-15eg7h,.wrapper-2SplAX {
+    border-radius: 0px;
+    min-height: 53px;
+    padding: 0;
+}
+
+[class^="nameTag-"] {
+    user-select: none !important;
+}
+
+[class^=menu-],[class^=submenu-] {
+    background: none;
+    border-radius: 0.5em;
+}
+[class^=submenu-] {
+    margin: 0 -8px;
+}
+.theme-dark [class^=menu-]::after,.theme-dark [class^=submenu-]::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    border-radius: 0.5em;
+    background: rgba(10, 10, 10, 0.7);
+    backdrop-filter: blur(0.5em);
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.4);
+}
+.theme-light [class^=menu-]::after,.theme-light [class^=submenu-]::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    border-radius: 0.5em;
+    background: rgba(245, 245, 245, 0.7);
+    backdrop-filter: blur(0.5em);
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.4);
+}
+[class^=backdrop-] ~ .theme-light[class*=layer-]>[class^=menu-] {
+    background: rgba(245, 245, 245, 0.7);
+}
+[class^=backdrop-] ~ .theme-dark[class*=layer-]>[class^=menu-] {
+    background: rgba(10, 10, 10, 0.7);
+}
+[class^=backdrop-] ~ [class*=layer-]>[class^=menu-]::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    backdrop-filter: blur(0.5em);
+    border-radius: 8px;
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.4);
+}
+.section-3FmfOT, .divider-1tWBgZ, .scroller-1jBQYo {
+    z-index: 2;
+}
+[id^="popout_1860"] ~ .theme-light[class*=layer-]>[class^=menu-] {
+    background: rgba(245, 245, 245, 0.7);
+}
+[id^="popout_1860"] ~ .theme-dark[class*=layer-]>[class^=menu-] {
+    background: rgba(10, 10, 10, 0.7);
+}
+[id^="popout_1860"] ~ [class*=layer-]>[class^=menu-]::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    backdrop-filter: blur(0.5em);
+    border-radius: 8px;
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.4);
+}
+
+[class^="positionLayer-"] ~ .theme-light[class*=layer-]>[class^=menu-] {
+    background: rgba(245, 245, 245, 0.7);
+}
+[class^="positionLayer-"] ~ .theme-dark[class*=layer-]>[class^=menu-] {
+    background: rgba(10, 10, 10, 0.7);
+}
+[class^="positionLayer-"] ~ [class*=layer-]>[class^=menu-]::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    backdrop-filter: blur(0.5em);
+    border-radius: 0.5em;
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.4);
+}
+
+
+.theme-light .container-_dQaft, .theme-light .messagesPopoutWrap-3zryHW, .theme-light .recentMentionsPopout-2bI1ZN, .theme-light .container-18GwIk {
+    border-radius: 0.5em;
+    background: rgba(245, 245, 245, 0.7);
+    backdrop-filter: blur(1em);
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.4);
+}
+.theme-dark .container-_dQaft, .theme-dark .messagesPopoutWrap-3zryHW, .theme-dark .recentMentionsPopout-2bI1ZN, .theme-dark .container-18GwIk {
+    border-radius: 0.5em;
+    background: rgba(10, 10, 10, 0.7);
+    backdrop-filter: blur(1em);
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.4);
+}
+.container-1A0qQO, .container-nwU-8G, .messageContainer-3VTXBC {
+    background: none;
+}
+
+.theme-light .userProfileInnerThemedNonPremium-1gT-zY, .theme-light .userProfileOuterUnthemed-2b2rsv {
+    background: rgba(245, 245, 245, 0.6);
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.4);
+}
+.theme-dark .userProfileInnerThemedNonPremium-1gT-zY, .theme-dark .userProfileOuterUnthemed-2b2rsv {
+    background: rgba(25, 25, 25, 0.4);
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.4);
+}
+.userProfileOuterUnthemed-2b2rsv::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    border-radius: 0.5em;
+    backdrop-filter: blur(1em);
+}
+
+.root-2uUafN {
+    background: none;
+}
+.theme-light [class*=overlayBackground-], .theme-light [class*=badgeList-] {
+    background: rgba(255, 255, 255, 0.7);
+}
+.theme-dark [class*=overlayBackground-], .theme-dark [class*=badgeList-] {
+    background: rgba(10, 10, 10, 0.9);
+}
+
+
+.theme-light [class^=popout-], .theme-light [class^=popoutContainer-] {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(0.5em);
+    border-radius: 0.5em;
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.4);
+}
+.theme-dark [class^=popout-], .theme-dark [class^=popoutContainer-] {
+    background: rgba(10, 10, 10, 0.7);
+    backdrop-filter: blur(0.5em);
+    border-radius: 0.5em;
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.4);
+}
+
+[class^="profileCardUsernameRow-"] + [aria-label="User Badges"] {
+    background: none !important;
+}
+
+.theme-dark [class^="accountProfileCard-"] {
+    background: rgba(10, 10, 10, 0.7);
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.4);
+}
+.theme-light [class^="accountProfileCard-"] {
+    background: rgba(230, 230, 230, 0.7);
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.4);
+}
+
+.theme-light .container-2McqkF {
+    background: rgba(245, 245, 245, 0.7);
+    backdrop-filter: blur(0.5em);
+    border-radius: 0.5em;
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.4);
+}
+.theme-dark .container-2McqkF {
+    background: rgba(10, 10, 10, 0.7);
+    backdrop-filter: blur(0.5em);
+    border-radius: 0.5em;
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.4);
+}
+
+.theme-light [class^="quickswitcher-"] {
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(0.5em);
+    border-radius: 0.5em;
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.4);
+}
+.theme-dark [class^="quickswitcher-"] {
+    background: rgba(27, 27, 27, 0.7);
+    backdrop-filter: blur(0.5em);
+    border-radius: 0.5em;
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.4);
+}
+[class^="quickswitcher-"]>[class^="scroller-"] {
+    background: none;
+}
+
+[class^="backdrop-"] + [class^="layer-"] {
+    backdrop-filter: blur(0.25em);
+}
+
+[class^="item-"],button,[aria-label="Set Status"] {
+    border-radius: 0.75em !important;
+}
+
+.theme-dark [aria-label="Message Actions"] > [class^="wrapper-"] {
+    background: rgba(10, 10, 10, 0.6);
+    border-radius: 0.5em;
+    backdrop-filter: blur(0.5em);
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.2) !important;
+}
+.theme-light [aria-label="Message Actions"] > [class^="wrapper-"] {
+    background: rgba(245, 245, 245, 0.6);
+    border-radius: 0.5em;
+    backdrop-filter: blur(0.5em);
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.2) !important;
+}
