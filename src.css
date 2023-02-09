@@ -3,32 +3,23 @@
 :root {
     --font-headline: 'Iosevka Web';
     --font-code: 'Iosevka Web';
-
-    --col-accent: rgb(223, 195, 200);
-    --col-primary: rgb(36, 36, 37);
-    --col-secondary: rgb(24, 24, 24);
-    --col-secondary-alt: rgb(8, 8, 8);
-    --col-tertiary: rgb(8, 8, 8);
-    --col-input-box: rgb(8, 8, 8);
-    --col-bgacc: rgb(236, 67, 103);
-    --col-scrollbar-track: var(--col-primary);
-    --col-scrollbar-thumb: var(--col-accent);
 }
 
 .theme-dark {
-    --background-primary: var(--col-primary);
-    --background-secondary: var(--col-secondary);
-    --background-secondary-alt: var(--col-secondary-alt);
-    --background-tertiary: var(--col-tertiary);
-    --background-accent: var(--col-bgacc);
-    --header-primary: var(--col-accent);
-    --interactive-active: var(--col-accent);
-    --local-bot-side: var(--col-bgacc);
-    --channeltextarea-background: var(--col-input-box);
-    --scrollbar-auto-thumb: var(--col-scrollbar-thumb);
-    --scrollbar-auto-track: var(--col-scrollbar-track);
-    --brand-experiment: var(--col-accent);
-    --brand-experiment-560: var(--col-accent);
+    --background-primary: rgb(36, 36, 37);
+    --background-secondary: rgb(24, 24, 24);
+    --background-secondary-alt: rgb(8, 8, 8);
+    --background-tertiary: rgb(8, 8, 8);
+    --background-accent: rgb(236, 67, 90);
+    --header-primary: rgb(223, 195, 200);
+    --interactive-active: rgb(223, 195, 200);
+    --local-bot-side: rgb(236, 67, 90);
+    --channeltextarea-background: rgb(8, 8, 8);
+    --scrollbar-auto-thumb: rgb(223, 195, 200);
+    --scrollbar-auto-track: rgb(36, 36, 37);
+    --brand-experiment: rgb(204, 165, 172);
+    --brand-experiment-560: rgb(204, 168, 175);
+    --brand-experiment-500: rgb(184, 122, 133);
 }
 
 .theme-dark .container-1um7CU,.theme-dark .container-2IKOsH, .theme-dark .header-3xB4vB {
@@ -54,7 +45,7 @@ aside {
 }
 
 .info-3pQQBb > span:last-child::after {
-    content: "\aNominal \bb  CSS";
+    content: "\aNominal \bb  CSS Tweaks";
     white-space: pre;
     text-transform: none;
 }
@@ -65,7 +56,7 @@ aside {
 }
 [class*="clickableSticker"] > div[aria-label]::after {
     content: "A sticker was hidden.";
-    color: gray;
+    color: rgba(128, 128, 128, 0.75);
     font-weight: 500;
 }
 
@@ -292,6 +283,20 @@ aside {
 }
 .theme-light [aria-label="Message Actions"] > [class^="wrapper-"] {
     background: rgba(245, 245, 245, 0.6);
+    border-radius: 0.5em;
+    backdrop-filter: blur(0.5em);
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.2) !important;
+}
+
+
+.theme-dark .root-g14mjS {
+    background: rgba(10, 10, 10, 0.6);
+    border-radius: 0.5em;
+    backdrop-filter: blur(0.5em);
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.2) !important;
+}
+.theme-light .root-g14mjS {
+    background: rgba(245, 245, 245, 0.8);
     border-radius: 0.5em;
     backdrop-filter: blur(0.5em);
     box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.2) !important;
