@@ -1,20 +1,22 @@
-# nominal
+<img src="https://user-images.githubusercontent.com/76652465/218218882-112a7579-e81d-4f07-b2ee-ffbed5dd081b.png" width="530px" align="right">
+
+# <samp>nominal</samp>
 a discord theme that makes literally everything much better
 
-![scr](https://user-images.githubusercontent.com/76652465/217889639-5c06b05a-1b15-487f-bd49-55923ea8a1d6.png)
 
-### one can notice such changes but
+### <samp>features</samp>
 
-- dark theme colours redone (made better)
+- better dark theme colours
+- light theme improvements
 - a cute accent colour
-- removes nitro promos and unnecessary buttons and such
+- removes nitro promos,  
+  unnecessary buttons and such
 - hides welcome stickers
 - minor fixes for discord
-- blur and rounding
-- even better light theme?
+- blur / frosted glass effect
 - iosevka codeblock font
 
-### how use?
+### <samp>how can I use this?</samp>
 
 just import this link
 
@@ -22,13 +24,7 @@ just import this link
 https://raw.githubusercontent.com/unlwly/nominal/main/src.css
 ```
 
-### licens
-
-any fonts used are available in SIL OFL  
-this repository is licensed under MIT
-
-### note
-
-thank vencord discord server for snippets
-
-hi cutie
+### <samp>licensing</samp>
+ 
+this repository is licensed under MIT  
+Iosevka is available under SIL OFL
