@@ -143,13 +143,13 @@ aside {
 .section-3FmfOT, .divider-1tWBgZ, .scroller-1jBQYo {
     z-index: 2;
 }
-[id^="popout_1860"] ~ .theme-light[class*=layer-]>[class^=menu-] {
+[id^="popout_"] ~ .theme-light[class*=layer-]>[class^=menu-] {
     background: rgba(255, 255, 255, 0.8);
 }
-[id^="popout_1860"] ~ .theme-dark[class*=layer-]>[class^=menu-] {
+[id^="popout_"] ~ .theme-dark[class*=layer-]>[class^=menu-] {
     background: rgba(10, 10, 10, 0.7);
 }
-[id^="popout_1860"] ~ [class*=layer-]>[class^=menu-]::before {
+[id^="popout_"] ~ [class*=layer-]>[class^=menu-]::before {
     content: '';
     position: absolute;
     inset: 0;
