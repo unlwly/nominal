@@ -1,8 +1,9 @@
-<img src="https://user-images.githubusercontent.com/76652465/218218882-112a7579-e81d-4f07-b2ee-ffbed5dd081b.png" width="530px" align="right">
+<img src="https://user-images.githubusercontent.com/76652465/218218882-112a7579-e81d-4f07-b2ee-ffbed5dd081b.png" width="500px" align="right">
 
 # <samp>nominal</samp>
-a discord theme that makes literally everything much better
+*a discord theme that makes literally everything much better*
 
+discord's not looking too good OOTB, so I made this theme to fix that
 
 ### <samp>features</samp>
 
@@ -18,7 +19,7 @@ a discord theme that makes literally everything much better
 
 ### <samp>how can I use this?</samp>
 
-just import this link
+just @import this link:
 
 ```
 https://raw.githubusercontent.com/unlwly/nominal/main/src.css
