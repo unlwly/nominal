@@ -8,6 +8,7 @@
     --brand-experiment: rgb(204, 165, 172);
     --brand-experiment-560: rgb(204, 168, 175);
     --brand-experiment-500: rgb(184, 122, 133);
+    --selection-col: rgba(184, 122, 133, 0.6);
     --background-accent: rgb(236, 67, 90);
     --local-bot-side: rgb(236, 67, 90);
 }
@@ -22,7 +23,7 @@
     --scrollbar-auto-track: rgb(29, 29, 29);
 }
 
-::selection {background: var(--brand-experiment-500) !important;}
+::selection {background: var(--selection-col) !important;}
 
 .theme-dark .container-1um7CU,.theme-dark .container-2IKOsH, .theme-dark .header-3xB4vB {
     background-color: var(--background-secondary-alt);
