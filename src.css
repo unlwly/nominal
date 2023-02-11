@@ -22,6 +22,8 @@
     --scrollbar-auto-track: rgb(29, 29, 29);
 }
 
+::selection {background: var(--brand-experiment-500) !important;}
+
 .theme-dark .container-1um7CU,.theme-dark .container-2IKOsH, .theme-dark .header-3xB4vB {
     background-color: var(--background-secondary-alt);
 }
