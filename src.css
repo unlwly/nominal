@@ -106,24 +106,34 @@ aside {
     user-select: none !important;
 }
 
-[class^=menu-]::after,[class^=submenu-]::after {
+[class^=menu-],[class^=submenu-] {
+    background: none;
+    border-radius: 0.5em;
+}
+[class^=submenu-] {
+    margin: 0 -8px;
+}
+.theme-dark [class^=menu-]::after,.theme-dark [class^=submenu-]::after {
     content: '';
     position: absolute;
     inset: 0;
     z-index: -1;
     border-radius: 0.5em;
+    background: rgba(10, 10, 10, 0.7);
     backdrop-filter: blur(0.5em);
     box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.4);
     border: 1px solid var(--scrollbar-auto-track);
 }
-[class^=submenu-] {
-    margin: 0 -8px;
-}
-.theme-dark [class^=menu-],.theme-dark [class^=submenu-] {
-    background: rgba(10, 10, 10, 0.7);
-}
-.theme-light [class^=menu-],.theme-light [class^=submenu-] {
+.theme-light [class^=menu-]::after,.theme-light [class^=submenu-]::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    border-radius: 0.5em;
     background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(0.5em);
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.4);
+    border: 1px solid var(--scrollbar-auto-track);
 }
 
 [class^=backdrop-] ~ .theme-light[class*=layer-]>[class^=menu-] {
@@ -138,7 +148,7 @@ aside {
     inset: 0;
     z-index: 0;
     backdrop-filter: blur(0.5em);
-    border-radius: 8px;
+    border-radius: 0.5em;
     box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.4);
     border: 1px solid var(--scrollbar-auto-track);
 }
