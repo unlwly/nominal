@@ -26,7 +26,7 @@
 
 ::selection {background: var(--selection-col) !important;}
 
-.theme-dark .container-1um7CU,.theme-dark .container-2IKOsH, .theme-dark .header-3xB4vB {
+.theme-dark .container-1um7CU,.theme-dark .container-2IKOsH, .theme-dark .header-3xB4vB, .theme-dark [class^="directoryModal-"] {
     background-color: var(--background-secondary-alt);
 }
 
@@ -130,14 +130,14 @@ aside {
     inset: 0;
     z-index: -1;
     border-radius: 0.5em;
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 0.7);
     backdrop-filter: blur(0.5em);
     box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.4);
     border: 1px solid var(--scrollbar-auto-track);
 }
 
 [class^=backdrop-] ~ .theme-light[class*=layer-]>[class^=menu-] {
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 0.7);
 }
 [class^=backdrop-] ~ .theme-dark[class*=layer-]>[class^=menu-] {
     background: rgba(10, 10, 10, 0.7);
@@ -156,7 +156,7 @@ aside {
     z-index: 2;
 }
 [id^="popout_"] ~ .theme-light[class*=layer-]>[class^=menu-] {
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 0.7);
 }
 [id^="popout_"] ~ .theme-dark[class*=layer-]>[class^=menu-] {
     background: rgba(10, 10, 10, 0.7);
@@ -172,8 +172,25 @@ aside {
     border: 1px solid var(--scrollbar-auto-track);
 }
 
+.theme-light[class^=autocomplete-] {
+    background: rgba(255, 255, 255, 0.7);
+}
+.theme-dark[class^=autocomplete-] {
+    background: rgba(10, 10, 10, 0.7);
+}
+[class^=autocomplete-]::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    backdrop-filter: blur(0.75em);
+    border-radius: 8px;
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.4);
+    border: 1px solid var(--scrollbar-auto-track);
+}
+
 [class^="positionLayer-"] ~ .theme-light[class*=layer-]>[class^=menu-] {
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 0.7);
 }
 [class^="positionLayer-"] ~ .theme-dark[class*=layer-]>[class^=menu-] {
     background: rgba(10, 10, 10, 0.7);
@@ -288,7 +305,7 @@ aside {
 }
 
 .theme-light [class^="quickswitcher-"] {
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 0.7);
     backdrop-filter: blur(0.5em);
     border-radius: 0.5em;
     box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.4);
