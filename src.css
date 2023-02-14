@@ -87,11 +87,11 @@ aside {
 
 .theme-dark .panels-3wFtMD {
     padding: 0.2em;
-    border: 1px solid var(--background-secondary);
+    border: 1px solid var(--scrollbar-auto-track);
 }
 .theme-light .panels-3wFtMD {
     padding: 0.2em;
-    border: 1px solid var(--background-secondary);
+    border: 1px solid var(--scrollbar-auto-track);
 }
 .avatarWrapper-1B9FTW {
     margin-right: 2px;
@@ -99,7 +99,7 @@ aside {
 
 [class^="channelTextArea-"] {
     margin-bottom: 0.6em !important;
-    border: 1px solid var(--background-secondary);
+    border: 1px solid var(--scrollbar-auto-track);
 }
 
 [class^="nameTag-"] {
@@ -172,11 +172,13 @@ aside {
     border: 1px solid var(--scrollbar-auto-track);
 }
 
-.theme-light[class^=autocomplete-] {
+.theme-light [class^=autocomplete-] {
     background: rgba(255, 255, 255, 0.7);
+    border-radius: 0.5em;
 }
-.theme-dark[class^=autocomplete-] {
+.theme-dark [class^=autocomplete-] {
     background: rgba(10, 10, 10, 0.7);
+    border-radius: 0.5em;
 }
 [class^=autocomplete-]::before {
     content: '';
@@ -184,7 +186,7 @@ aside {
     inset: 0;
     z-index: 0;
     backdrop-filter: blur(0.75em);
-    border-radius: 8px;
+    border-radius: 0.5em;
     box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.4);
     border: 1px solid var(--scrollbar-auto-track);
 }
