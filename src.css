@@ -37,6 +37,13 @@
     background: linear-gradient(rgb(117 117 117 / 10%), rgb(156 108 108 / 10%)),var(--background-secondary) !important;
 }
 
+div[class*="checked-"] {
+    background-color: var(--brand-experiment-500) !important;
+}
+svg[class^="slider-"] path {
+    fill: var(--brand-experiment-560);
+}
+
 [href="/store"],
 [aria-label="Send a gift"],
 .container-2giAcK,
@@ -67,8 +74,8 @@ aside {
 .info-3pQQBb > span:last-child::after {
     content: "\aNominal <=> CSS Tweaks";
     white-space: pre;
-    text-transform: none;
     font-family: "Iosevka Web";
+    color: var(--brand-experiment);
 }
 
 [class*="welcomeCTA"] { display:none; }
