@@ -56,6 +56,14 @@ aside {
     display: none
 }
 
+.container-32HW5s {
+    border-radius: 0.5em;
+    padding: 0;
+}
+.link-39sEB3 {
+    padding: 0.1em;
+}
+
 .info-3pQQBb > span:last-child::after {
     content: "\aNominal <=> CSS Tweaks";
     white-space: pre;
@@ -107,8 +115,13 @@ aside {
 }
 
 [class^=menu-],[class^=submenu-] {
-    background: none;
     border-radius: 0.5em;
+}
+.theme-dark [class^=menu-], .theme-dark [class^=submenu-] {
+    background: rgba(10, 10, 10, 0.7);
+}
+.theme-light [class^=menu-], .theme-light [class^=submenu-] {
+    background: rgba(255, 255, 255, 0.7);
 }
 [class^=submenu-] {
     margin: 0 -8px;
@@ -119,7 +132,6 @@ aside {
     inset: 0;
     z-index: -1;
     border-radius: 0.5em;
-    background: rgba(10, 10, 10, 0.7);
     backdrop-filter: blur(0.5em);
     box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.4);
     border: 1px solid var(--scrollbar-auto-track);
@@ -136,12 +148,7 @@ aside {
     border: 1px solid var(--scrollbar-auto-track);
 }
 
-[class^=backdrop-] ~ .theme-light[class*=layer-]>[class^=menu-] {
-    background: rgba(255, 255, 255, 0.7);
-}
-[class^=backdrop-] ~ .theme-dark[class*=layer-]>[class^=menu-] {
-    background: rgba(10, 10, 10, 0.7);
-}
+
 [class^=backdrop-] ~ [class*=layer-]>[class^=menu-]::before {
     content: '';
     position: absolute;
@@ -155,12 +162,7 @@ aside {
 .section-3FmfOT, .divider-1tWBgZ, .scroller-1jBQYo {
     z-index: 2;
 }
-[id^="popout_"] ~ .theme-light[class*=layer-]>[class^=menu-] {
-    background: rgba(255, 255, 255, 0.7);
-}
-[id^="popout_"] ~ .theme-dark[class*=layer-]>[class^=menu-] {
-    background: rgba(10, 10, 10, 0.7);
-}
+
 [id^="popout_"] ~ [class*=layer-]>[class^=menu-]::before {
     content: '';
     position: absolute;
