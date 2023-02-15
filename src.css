@@ -116,16 +116,14 @@ aside {
 
 [class^=menu-],[class^=submenu-] {
     border-radius: 0.5em;
+    border: 1px solid var(--scrollbar-auto-track);
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.4);
 }
 .theme-dark [class^=menu-], .theme-dark [class^=submenu-] {
-    background: rgba(10, 10, 10, 0.7);
-    border: 1px solid var(--scrollbar-auto-track);
-    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.4);
+    background: rgba(10, 10, 10, 0.6);
 }
 .theme-light [class^=menu-], .theme-light [class^=submenu-] {
-    background: rgba(255, 255, 255, 0.7);
-    border: 1px solid var(--scrollbar-auto-track);
-    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.4);
+    background: rgba(255, 255, 255, 0.6);
 }
 [class^=submenu-] {
     margin: 0 -8px;
@@ -144,7 +142,6 @@ aside {
     inset: 0;
     z-index: -1;
     border-radius: 0.5em;
-    background: rgba(255, 255, 255, 0.7);
     backdrop-filter: blur(0.5em);
 }
 
