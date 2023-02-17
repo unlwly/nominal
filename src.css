@@ -103,45 +103,39 @@ svg[class^="homeIcon"] {
     margin-left: 8px;
 }
 
-ul[aria-label="Direct Messages"] li[aria-posinset="1"] {
-    position: fixed;
-    z-index: 420;
-    top: 0.5em;
-    left: 12.25em;
-    width: 6.7em;
-    border-radius: 0.75em;
-    background-color: rgba(155, 155, 155, 0.04);
-    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.4);
-    padding: 0;
-    margin: 0;
-}
 ul[aria-label="Direct Messages"] li[aria-posinset="1"]>div {
     height: 2em;
     padding: 0;
+    background-color: rgba(155, 155, 155, 0.1);
+}
+ul[aria-label="Direct Messages"] li[aria-posinset="1"]>div[class*="selected"] {
+    background-color: rgba(155, 155, 155, 0.2);
 }
 ul[aria-label="Direct Messages"] li[aria-posinset="1"] div[class^="content"] {
-    display: none;
+    margin-right: auto;
+    max-width: fit-content;
 }
 ul[aria-label="Direct Messages"] li[aria-posinset="1"] div[class^="avatar"] {
-    margin: auto;
+    margin-left: auto;
+    margin-right: 0.25em;
+    left: -0.25em;
+    position: relative;
 }
-
+div[class^="searchBar-"] {
+    border: 1px solid var(--scrollbar-auto-track);
+}
+nav div[class^="searchBar-"] {
+    border: none;
+}
 div[class^="searchBar-"] button[class^="searchBarComponent-"] {
-    width: 7.5em;
-    height: 2.286em;
-    text-indent: 150%;
-    white-space: nowrap;
-    overflow: hidden;
-    background-color: rgba(155, 155, 155, 0.04);
-    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.4);
-    padding: 0;
-    opacity: 1 !important;
+    height: 2em;
+    padding-left: 0.75em;
 }
 div[class^="searchBar-"] button[class^="searchBarComponent-"]:hover {
-    background: var(--bg-overlay-hover,var(--background-modifier-hover));
+    color: var(--interactive-hover);
 }
 div[class^="searchBar-"] button[class^="searchBarComponent-"]:hover::after {
-    border: solid 2px var(--interactive-hover);
+    border: solid 1px var(--interactive-hover);
 }
 div[class^="searchBar-"] button[class^="searchBarComponent-"]:hover::before {
     background: var(--interactive-hover);
@@ -154,8 +148,8 @@ div[class^="searchBar-"] button[class^="searchBarComponent-"]::after {
     height: 10px;
     width: 10px;
     border-radius: 20em;
-    border: solid 2px var(--channels-default);
-    transform: translateX(56px) translateY(16px);
+    border: solid 1px var(--channels-default);
+    transform: translateX(206px) translateY(17px);
 }
 div[class^="searchBar-"] button[class^="searchBarComponent-"]::before {
     content: '';
@@ -163,9 +157,9 @@ div[class^="searchBar-"] button[class^="searchBarComponent-"]::before {
     inset: 0;
     z-index: 420;
     background: var(--channels-default);
-    transform: rotate(45deg) translateX(67px) translateY(-27px);
-    height: 3px;
-    width: 8px;
+    transform: rotate(45deg) translateX(172px) translateY(-132px);
+    height: 1px;
+    width: 6px;
     border-radius: 1em;
 }
 
@@ -181,13 +175,16 @@ div[class^="searchBar-"] button[class^="searchBarComponent-"]::before {
     text-shadow: 0 0 3px 3px black;
 }
 
-.theme-dark .panels-3wFtMD {
+.panels-3wFtMD, .panels-3wFtMD div[class^="container-"] {
+    border-radius: 1em;
+}
+.panels-3wFtMD {
+    margin: 0 0.5em 0.5em 0.5em;
     padding: 0.2em;
     border: 1px solid var(--scrollbar-auto-track);
 }
-.theme-light .panels-3wFtMD {
-    padding: 0.2em;
-    border: 1px solid var(--scrollbar-auto-track);
+.withTagAsButton-OsgQ9L, .withTagless-10ooWt {
+    min-width: 105px;
 }
 .avatarWrapper-1B9FTW {
     margin-right: 2px;
