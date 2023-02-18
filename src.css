@@ -178,8 +178,8 @@ div[class^="searchBar-"] button[class^="searchBarComponent-"]::before {
 .panels-3wFtMD, .panels-3wFtMD div[class^="container-"] {
     border-radius: 1em;
 }
-.scroller-1ox3I2 {
-    padding-bottom: 5em;
+.scroller-1ox3I2, .scroller-WSmht3 {
+    padding-bottom: 15em;
 }
 .panels-3wFtMD {
     margin: 0 0.5em 0.5em 0.5em;
