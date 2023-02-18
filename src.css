@@ -22,6 +22,7 @@
     --channeltextarea-background: rgb(8, 8, 8);
     --scrollbar-auto-track: rgb(29, 29, 29);
     --modal-footer-background: rgb(24, 24, 24);
+    --home-background: var(--background-primary);
 }
 
 ::selection {background: var(--selection-col) !important;}
