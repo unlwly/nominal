@@ -1,31 +1,32 @@
-<img src="https://user-images.githubusercontent.com/76652465/218218882-112a7579-e81d-4f07-b2ee-ffbed5dd081b.png" width="500px" align="right">
+<div align="center">
 
-# <samp>nominal</samp>
-*a discord theme that makes literally everything much better*
+# <samp>NOMINAL</samp>
 
-discord's not looking too good OOTB, so I made this theme to fix that
+CSS tweaks/theme for discord that removes BS and has full support for dark, light & nitro themes.
 
-### <samp>features</samp>
+</div>
 
-- better dark theme colours
-- light theme improvements
-- a cute accent colour
-- removes nitro promos,  
-  unnecessary buttons and such
-- hides welcome stickers
-- minor fixes for discord
-- blur / frosted glass effect
-- iosevka codeblock font
+![main preview](https://user-images.githubusercontent.com/76652465/219852562-b4d161d7-5b01-472f-ab29-2dce857ddf7d.png)
 
-### <samp>how can I use this?</samp>
+![nitro colour preview](https://user-images.githubusercontent.com/76652465/219852570-574c7fd7-fd19-43aa-9aa9-04aa91ba7b18.png)
 
-just @import this link:
+### features
+
+- better dark & light colourschemes
+- nitro colour support
+- iosevka for code font
+- cute accent colours for checkboxes and selections
+- removes nitro promo crap and hides welcome stickers
+- blur / frosted glass effect with borders and shadows on most things
+
+### how can I use this?
+
+just @import this link
 
 ```
 https://raw.githubusercontent.com/unlwly/nominal/main/src.css
 ```
 
-### <samp>licensing</samp>
- 
-this repository is licensed under MIT  
-Iosevka is available under SIL OFL
+### licensing
+
+this repository is licensed under MIT and Iosevka is available under SIL OFL
