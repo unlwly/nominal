@@ -31,10 +31,10 @@
 }
 
 .theme-light .wrapper-1_HaEi,.theme-light .scroller-3X7KbA {
-    background: linear-gradient(rgb(0 0 0 / 20%), rgb(109 54 54 / 20%)),var(--background-secondary) !important;
+    background: linear-gradient(rgb(0 0 0 / 20%), rgb(109 54 54 / 20%)),var(--bg-overlay-4,var(--background-secondary)) !important;
 }
 .theme-dark .wrapper-1_HaEi,.theme-dark .scroller-3X7KbA {
-    background: linear-gradient(rgb(117 117 117 / 10%), rgb(156 108 108 / 10%)),var(--background-secondary) !important;
+    background: linear-gradient(rgb(117 117 117 / 10%), rgb(156 108 108 / 10%)),var(--bg-overlay-4,var(--background-secondary)) !important;
 }
 
 div[class*="checked-"] {
@@ -178,10 +178,24 @@ div[class^="searchBar-"] button[class^="searchBarComponent-"]::before {
 .panels-3wFtMD, .panels-3wFtMD div[class^="container-"] {
     border-radius: 1em;
 }
+.scroller-1ox3I2 {
+    padding-bottom: 5em;
+}
 .panels-3wFtMD {
     margin: 0 0.5em 0.5em 0.5em;
-    padding: 0.2em;
     border: 1px solid var(--scrollbar-auto-track);
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.2);
+    padding: 0.2em;
+    position: fixed;
+    bottom: 0;
+    background: var(--bg-overlay-2,var(--background-secondary-alt));
+    max-width: 217px;
+}
+[class^="channelTextArea-"] {
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.2);
+}
+.panels-3wFtMD div[class^="container-"] {
+    background: none;
 }
 .withTagAsButton-OsgQ9L, .withTagless-10ooWt {
     min-width: 105px;
