@@ -194,14 +194,13 @@ div[class^="searchBar-"] button[class^="searchBarComponent-"]::before {
     border-radius: 1em;
 }
 .scroller-1ox3I2, .scroller-WSmht3 {
-    padding-bottom: 17.5em;
+    padding-bottom: 1.5em;
 }
 .panels-3wFtMD {
-    margin: 0 0.5em 0.5em 0.5em;
+    margin: -1em 0.5em 0.5em 0.5em;
     border: 1px solid var(--scrollbar-auto-track);
     box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.2);
     padding: 0.2em;
-    position: fixed;
     bottom: 0;
     background: var(--bg-overlay-2,var(--background-secondary-alt));
     max-width: 217px;
