@@ -111,13 +111,20 @@ svg[class^="homeIcon"] {
     margin-left: 8px;
 }
 
+.theme-dark [class^="perksModal"] {
+    background-color: inherit;
+}
+
 ul[aria-label="Direct Messages"] li[aria-posinset="1"]>div {
     height: 2em;
     padding: 0;
-    background-color: rgba(155, 155, 155, 0.1);
+    background-color: rgba(155, 155, 155, 0.04);
+}
+ul[aria-label="Direct Messages"] li[aria-posinset="1"]>div:hover {
+    background-color: rgba(155, 155, 155, 0.15);
 }
 ul[aria-label="Direct Messages"] li[aria-posinset="1"]>div[class*="selected"] {
-    background-color: rgba(155, 155, 155, 0.2);
+    background-color: rgba(155, 155, 155, 0.3);
 }
 ul[aria-label="Direct Messages"] li[aria-posinset="1"] div[class^="content"] {
     margin-right: auto;
