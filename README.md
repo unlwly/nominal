@@ -30,4 +30,4 @@ https://raw.githubusercontent.com/unlwly/nominal/main/src.css
 ### licensing
 
 this repository is licensed under MIT and Iosevka is available under SIL OFL  
-some svgs may be from bootstrap icons which is MIT licensed
+extra svgs are either made by me or from material symbols

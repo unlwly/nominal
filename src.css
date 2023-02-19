@@ -50,7 +50,7 @@ path[d^="M12.1151 2.00065C12.0768 2.00022 12.0384 2 12 2C6.477 2 2 6.477 2 12C2 
 }
 
 [class*="connectedAccountOpenIcon-"] {
-    -webkit-mask-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' %3F%3E%3Csvg height='25' viewBox='-1 -1 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z' fill='currentColor' /%3E%3C/svg%3E"), url("data:image/svg+xml,%3C%3Fxml version='1.0' %3F%3E%3Csvg height='25' viewBox='-1 -1 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z' fill='currentColor' /%3E%3C/svg%3E");
+    -webkit-mask-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' %3F%3E%3Csvg height='22' viewBox='100 200 960 960' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M180 936q-24 0-42-18t-18-42V276q0-24 18-42t42-18h279v60H180v600h600V597h60v279q0 24-18 42t-42 18H180Zm202-219-42-43 398-398H519v-60h321v321h-60V319L382 717Z' fill='currentColor' /%3E%3C/svg%3E");
     -webkit-mask-repeat: no-repeat;
     background-color: currentColor;
     transform: scale(1);
