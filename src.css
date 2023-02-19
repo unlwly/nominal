@@ -201,7 +201,6 @@ div[class^="searchBar-"] button[class^="searchBarComponent-"]::before {
     border: 1px solid var(--scrollbar-auto-track);
     box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.2);
     padding: 0.2em;
-    bottom: 0;
     background: var(--bg-overlay-2,var(--background-secondary-alt));
     max-width: 217px;
 }
