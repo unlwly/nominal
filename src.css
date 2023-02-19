@@ -193,11 +193,11 @@ div[class^="searchBar-"] button[class^="searchBarComponent-"]::before {
 .sidebar-1tnWFu {
     background: var(--bg-overlay-3,var(--background-secondary));
 }
-.panels-3wFtMD, .panels-3wFtMD div[class^="container-"] {
-    border-radius: 1em;
-}
 .scroller-1ox3I2, .scroller-WSmht3 {
     padding-bottom: 1.5em;
+}
+.panels-3wFtMD {
+    border-radius: 1em;
 }
 .panels-3wFtMD {
     margin: -1em 0.5em 0.5em 0.5em;
