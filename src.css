@@ -60,8 +60,11 @@ path[d^="M12.1151 2.00065C12.0768 2.00022 12.0384 2 12 2C6.477 2 2 6.477 2 12C2 
     z-index: 69420;
 }
 
-.withFrame-haYltI {
+.theme-dark .withFrame-haYltI {
     background: linear-gradient(rgb(117 117 117 / 10%), rgb(117 117 117 / 10%)),var(--bg-overlay-4,var(--background-secondary));
+}
+.theme-light .withFrame-haYltI {
+    background: linear-gradient(rgb(0 0 0 / 20%), rgb(0 0 0 / 20%)),var(--bg-overlay-4,var(--background-secondary));
 }
 [customTitlebar] .base-2jDfDU {
     border-top-left-radius: 0 !important;
