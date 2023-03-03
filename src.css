@@ -22,6 +22,7 @@
     --channeltextarea-background: rgb(8, 8, 8);
     --scrollbar-auto-track: rgb(29, 29, 29);
     --modal-footer-background: rgb(24, 24, 24);
+    --modal-background: rgba(15, 15, 15, 0.8);
     --home-background: var(--background-primary);
 }
 
@@ -369,13 +370,13 @@ div[class^="searchBar-"] button[class^="searchBarComponent-"]::before {
     border: 1px solid var(--scrollbar-auto-track);
 }
 
-.theme-dark .root-g14mjS {
-    background: rgba(10, 10, 10, 0.6);
+.theme-dark .root-1CAIjD {
+    background: rgba(10, 10, 10, 0.8);
     border-radius: 0.5em;
     backdrop-filter: blur(0.5em);
     box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.2) !important;
 }
-.theme-light .root-g14mjS {
+.theme-light .root-1CAIjD {
     background: rgba(245, 245, 245, 0.8);
     border-radius: 0.5em;
     backdrop-filter: blur(0.5em);
