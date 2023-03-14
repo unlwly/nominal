@@ -27,6 +27,20 @@ just @import this link
 https://raw.githubusercontent.com/unlwly/nominal/main/src.css
 ```
 
+### quickcss tips
+
+Helvetica Neue or Tex Gyre Heros font
+(you need to have helvetica neue installed for it to use it)
+```css
+@import url('https://unlwly.github.io/assets/css/texgyreheros.css');
+
+:root {
+    --font-primary: 'Helvetica Neue','TexGyreHeros',sans-serif;
+    --font-display: 'Helvetica Neue','TexGyreHeros',sans-serif;
+    --font-headline: 'Helvetica Neue','TexGyreHeros',sans-serif;
+}
+```
+
 ### licensing
 
 this repository is licensed under MIT and Iosevka is available under SIL OFL  
